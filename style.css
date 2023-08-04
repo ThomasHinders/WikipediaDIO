@@ -1,0 +1,56 @@
+header{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+  font-size: 2.8em;
+  padding-left: 1em;
+  padding-right: 2em;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;  
+}
+article{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    max-width: 800px;
+}
+article h1{
+    font-size: 1.8em;
+}
+article p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
+}
+.serieTv, .topicos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.serieTv a, .topicos a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+figure img{
+   display: block;
+   margin: auto;
+}
+figure figcaption{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
